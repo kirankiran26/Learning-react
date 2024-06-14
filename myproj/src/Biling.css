@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+.biggerbox{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.lolo {
+    height: 200px; /* Corrected */
+    width: 200px;
+    background-color: black;
+    scale: 0.1;
+    rotate: 0;
+    transition: all 0.51s;
+    color: wheat;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.lolo:hover{
+    scale: 1;
+    rotate: 360deg;
+    background-color: blue;
+}
