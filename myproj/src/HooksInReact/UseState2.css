@@ -1,0 +1,15 @@
+.stdcard{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.stdcard button{
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.stdcard>*{
+    border: 2px solid black;
+    border-radius: 20px;
+}
