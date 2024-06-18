@@ -7,10 +7,12 @@ import UseState2 from './HooksInReact/UseState2'
 import Dynamic from './HooksInReact/Dynamic'
 import UseStateexample3 from './HooksInReact/UseStateexample3'
 import Example from './HooksInReact/Example3'
+import Basics from './HooksInReact/UseEffect/Basic'
+import Useeffectexample1 from './HooksInReact/UseEffect/Useeffectexample1'
 function App() {  
   return (
    <>
-   <Example/>
+   <Useeffectexample1/>
    </>
   );
 }
