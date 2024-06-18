@@ -17,10 +17,11 @@ const UseStateexample3 = () => {
     //     setpassward(evt.target.value);
     // }
 
+
+
+
     //the state val that is name,email,passward and the name  in the input tag should be same and name === in this function 
-
-
-
+    
     // const updationhandler = (evt) => {
     //     const { name, value } = evt.target;
     //     if (name === "name") {
@@ -51,7 +52,6 @@ const UseStateexample3 = () => {
             </div>
             {/* <div className="email">
                 <input type="email" name="email" id="email" placeholder='Enter your email' value={email} onChange={updationhandler}/>
-
             </div> */}
             <div className="email">
                 <input type="email" name="email" id="email" placeholder='Enter your email' value={email} onChange={(evt)=>setemail(evt.target.value)}/>
