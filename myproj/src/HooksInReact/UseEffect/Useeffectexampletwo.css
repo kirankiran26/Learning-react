@@ -1,0 +1,20 @@
+img{
+    height: 300px;
+    width: 200px;
+}
+.mail{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.outer div {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+input{
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    font-size: medium;
+}
