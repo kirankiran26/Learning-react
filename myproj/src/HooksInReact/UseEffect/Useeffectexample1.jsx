@@ -39,7 +39,7 @@ const Useeffectexample1 = () => {
             : 
             (
                 data.map((eachobj,index)=>(
-                    <h2>{eachobj.name}</h2>
+                    <h2>{eachobj.name} :- {eachobj.email}</h2>
                 ))
             )
         )

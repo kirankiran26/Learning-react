@@ -9,10 +9,11 @@ import UseStateexample3 from './HooksInReact/UseStateexample3'
 import Example from './HooksInReact/Example3'
 import Basics from './HooksInReact/UseEffect/Basic'
 import Useeffectexample1 from './HooksInReact/UseEffect/Useeffectexample1'
+import USeeffectexamplTwo from './HooksInReact/UseEffect/USeeffectexamplTwo'
 function App() {  
   return (
    <>
-   <Useeffectexample1/>
+   <USeeffectexamplTwo/>
    </>
   );
 }
