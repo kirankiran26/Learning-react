@@ -1,0 +1,15 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+    text-align: center;
+}
+h1  {
+    text-align: center;
+}
+.card >*{
+    border: 1px solid black;
+}
+.card :hover{
+    background-color: lightcyan;
+}
