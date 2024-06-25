@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import UseState2 from './HooksInReact/USeState/UseState2';
 import Basics from './HooksInReact/UseReducer/Basics';
-import Example2 from './HooksInReact/UseReducer/Example2';
+import Example1 from './HooksInReact/Useref/Example1';
+import Example2 from './HooksInReact/Useref/Example2';
 function App() {  
   return (
    <>
